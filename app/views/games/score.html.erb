@@ -1,0 +1,7 @@
+<p><%= @score %></p>
+ <% if @english_word %>
+ <p>it is an english word</p>
+ <% else %>
+ <p>it is not</p>
+ <% end %>
+<%= link_to "play again", new_path %>
